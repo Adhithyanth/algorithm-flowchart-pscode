@@ -1,0 +1,119 @@
+1)Student Grade Calculator
+
+Start
+Input the assignment score
+Input the midterm exam score
+Input the final exam score
+Calculate the final grade using the formula:
+Final Grade=(Assignment Score×0.3)
++
+(Midterm Score×0.3)
++
+(Final Exam Score×0.4)
+
+Final Grade=(Assignment Score×0.3)+(Midterm Score×0.3)+(Final Exam Score×0.4)
+If Final Grade ≥ 60 Then
+Print "Student Passed"
+Else
+Print "Student Failed"
+Display the final grade and pass/fail status
+End
+------------------------
+2)ATM Banking System
+
+Start
+Set an initial balance (e.g., ₹60,000)  
+Ask the user to enter PIN
+- If correct, proceed  
+- Else, show "Invalid PIN" and exit  
+Show menu options:  
+   - 1. Check Balance -> Display balance  
+   - 2. Deposit Money -> Add amount to balance  
+   - 3. Withdraw Money
+   - If enough balance -> Deduct and show new balance  
+- Else -> Show "Insufficient balance"  
+Exit -> End program  
+Repeat until the user selects Exit
+End
+------------------------
+3)Inventory Management System
+
+Start 
+Initialize an empty inventory list.  
+Display menu options:  
+Add a new product by entering ID, name, price, and quantity, then store it in the inventory.  
+Update an existing product by searching for it using the ID and modifying its price or quantity.  
+Remove a product by searching for it using the ID and deleting it from the inventory.  
+Search for a product by ID or name and display its details.  
+Display the entire inventory with product details.  
+Track low stock items by listing products with quantities below a certain threshold.  
+Generate an inventory report showing total stock value and summary.  
+Exit the program.  
+Repeat the process until the user chooses to exit. 
+End
+---------------------------
+4)Prime Number Checker
+
+Start 
+Accept a numerical input from the user  
+Verify that the input is a positive integer  
+If the number is less than or equal to one display that it is not a prime number  
+If the number is two or three display that it is a prime number  
+Check divisibility by numbers from two to the square root of the given number  
+If divisible by any number in this range display that it is not a prime number  
+If not divisible by any number display that it is a prime number  
+Ask the user if they want to check another number  
+Repeat the process until the user chooses to exit  
+End 
+-----------------------------
+5)Temperature Conversion Tool
+
+Start 
+Accept temperature value input from the user  
+Allow the user to select the source unit from Celsius Fahrenheit or Kelvin  
+Allow the user to select the target unit from Celsius Fahrenheit or Kelvin  
+Use the correct formula to convert the temperature from the source unit to the target unit  
+Display the converted temperature with the appropriate unit  
+Ask the user if they want to perform another conversion  
+Repeat the process until the user chooses to exit  
+End 
+-----------------------------
+6)Library Book Management System
+
+Start 
+Maintain a database of books with title author ISBN and status  
+Maintain a database of library members  
+Allow librarians to add new books to the collection  
+Provide an option to remove obsolete books from the database  
+Enable book checkout for members with due date tracking  
+Implement a book return process and calculate potential late fees  
+Allow searching for books by title author or ISBN  
+Generate reports for overdue books  
+Repeat the process as needed  
+End 
+-----------------------------
+7)Fibonacci Sequence Generator
+
+Start 
+Accept the number of terms to generate  
+Validate that the input is a positive integer within limits  
+Initialize the first two numbers of the Fibonacci sequence as 0 and 1  
+Use an efficient algorithm to generate the sequence up to the given number of terms  
+Display the generated sequence with appropriate formatting  
+Provide an option to save the sequence to a file  
+Repeat the process as needed  
+End 
+-----------------------------
+8)Calendar Event Scheduler
+
+Start 
+Allow the user to add events with a title, date, time, and description  
+Validate the date and time inputs  
+Store events in an organized data structure  
+Provide an option to display events for a specific day, week, or month  
+Enable searching for events by title or description  
+Allow users to delete or modify existing events  
+Set reminders for upcoming events  
+Check for schedule conflicts when adding new events  
+Repeat the process as needed  
+End 
